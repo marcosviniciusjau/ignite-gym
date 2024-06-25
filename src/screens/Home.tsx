@@ -1,9 +1,13 @@
-import { Center, Text } from 'native-base'
+import { Group } from '@components/Group'
+import { Header } from '@components/Header'
+import { Center, Text, VStack } from 'native-base'
 
 export function Home() {
   return (
-    <Center flex={1}>
-      <Text color="white">Home</Text>
-    </Center>
+    <VStack flex={1}>
+      <Header />
+
+      <Group name="Costas"/>
+    </VStack>
   )
 }
