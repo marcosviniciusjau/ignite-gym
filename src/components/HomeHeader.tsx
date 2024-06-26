@@ -11,6 +11,7 @@ export function HomeHeader(){
         source={{
           uri: 'https://github.com/marcosviniciusjau.png'
         }}
+        alt="Imagem do perfil"
         size={16}
         mr={4}
       />
