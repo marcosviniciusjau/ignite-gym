@@ -22,12 +22,12 @@ export function HistoryCard(){
           >
           Costas
         </Heading>
+
         <Text color="gray.100" fontSize="lg" numberOfLines={1}>
           Puxada frontal
         </Text>
-        <Text color="gray.300" fontSize="md">08:56</Text>
       </VStack>
+        <Text color="gray.300" fontSize="md">08:56</Text>
     </HStack>
-          
   )
 }
